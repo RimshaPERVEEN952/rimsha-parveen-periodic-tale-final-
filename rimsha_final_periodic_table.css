@@ -1,0 +1,126 @@
+* {
+    font-size: 20px;
+    color: black;
+    padding: 90;
+    margin: 50;
+}
+
+
+table {
+    overflow: hidden;
+    padding: 20px;
+    border-spacing: 2px;
+    border-radius: 40px;
+    border-collapse: separate;
+    color: rgb(120, 11, 150);
+    empty-cells: hide;
+    border-spacing: 2px;
+    align-items: center;
+
+
+}
+
+.content {
+
+    height: 1px;
+    border: white;
+    background-image: repeating-linear-gradient(rgb(114, 30, 30), rgb(14, 133, 133), rgba(25, 223, 25, 0.973), rgb(212, 13, 219), blueviolet, white);
+    color: green;
+    font-family: fantasy;
+    font-size: 40px;
+    padding: 10px;
+    margin: auto;
+    box-sizing: 100px;
+}
+
+.group:hover {
+    width: 55px;
+    background-image: conic-gradient(red, #6479CE, #BFB6FC, brown);
+    border-radius: 15px;
+    color: gainsboro;
+    font-size: 39px;
+}
+
+td:hover {
+    scale: 1.0;
+    transition: .31s;
+    border: 1px solid black;
+    border-radius: 13px;
+    color: darkred;
+    font-size: 34px;
+}
+
+sup:hover {
+    scale: 1.2;
+    color: rgb(223, 222, 225);
+    font-size: 35px;
+
+}
+
+sup {
+    color: goldenrod;
+}
+
+.emp:hover {
+    scale: 1.2;
+    border: none;
+    color: green;
+}
+
+.none {
+
+    padding-left: 23px;
+    border: none;
+}
+.none:hover{
+    scale: 1.0;
+    transition: .3s;
+    color: #6479CE;
+    font-size: 18px;
+}
+.box1 {
+    background-image: linear-gradient(yellow, red, gray);
+}
+
+.box2 {
+    height: 14px;
+    background-image: linear-gradient(gray, green, khaki);
+    height: 35px;
+    width: 100px;
+}
+
+.box3 {
+    background-image: repeating-linear-gradient(rgb(20, 164, 164), rgb(28, 4, 185), rgb(208, 201, 3));
+}
+
+.box6 {
+    background-image: linear-gradient(goldenrod, orange, red, yellow);
+}
+
+.box4 {
+    height: 45px;
+    width: 180px;
+    background-image: repeating-linear-gradient(brown, blueviolet, rgb(0, 89, 197, 0.2));
+}
+
+.box5 {
+    background-image: linear-gradient(rgba(9, 81, 129, 0.24), rgb(22, 163, 22), rgb(42, 87, 24));
+    height: 25px;
+    width: 180px;
+}
+
+.box7 {
+    height: 25px;
+    width: 280px;
+    background-image: linear-gradient(rgb(192, 178, 100), rgb(82, 9, 9), rgb(40, 9, 49));
+}
+
+.special {
+    height: 45px;
+    width: 180px;
+    background-image: radial-gradient(gray, rgb(14, 189, 181), rgb(13, 182, 21));
+}
+
+.none :hover {
+    background-color: black;
+}
